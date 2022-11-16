@@ -35,9 +35,9 @@ mkdir -p %{buildroot}%{_datadir}
 cp -a texmf-dist %{buildroot}%{_datadir}
 
 %files
-%{_texmfdistdir}/texmf-dist/tex/latex/diadia
-%{_texmfdistdir}/texmf-dist/scripts/diadia
-%doc %{_texmfdistdir}/texmf-dist/doc/latex/diadia
+%{_texmfdistdir}/tex/latex/diadia
+%{_texmfdistdir}/scripts/diadia
+%doc %{_texmfdistdir}/doc/latex/diadia
 
 %post -p %{_sbindir}/texlive.post
 
