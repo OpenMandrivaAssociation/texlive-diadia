@@ -1,6 +1,6 @@
 Name:		texlive-diadia
 Version:	37656
-Release:	1
+Release:	2
 Summary:	Package to keep a diabetes diary
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/diadia
