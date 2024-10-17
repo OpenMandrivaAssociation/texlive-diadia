@@ -3,7 +3,7 @@ Version:	37656
 Release:	2
 Summary:	Package to keep a diabetes diary
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/diadia
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/diadia
 License:	lppl
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/diadia.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/diadia.doc.r%{version}.tar.xz
