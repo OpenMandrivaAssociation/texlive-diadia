@@ -13,8 +13,6 @@ Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/diadia.r%{tl_rev
 Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/diadia.doc.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-BuildRequires:	texlive-tlpkg
-%texlive_base_requires
 Requires:	texlive(diadia.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
 
