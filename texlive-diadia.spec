@@ -1,5 +1,6 @@
 %global tl_name diadia
 %global tl_revision 79618
+%global tl_bin_links diadia:%{_texmfdistdir}/scripts/diadia/diadia.lua
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -15,6 +16,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(diadia.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 The diadia package allows you to keep a diabetes diary. Usually, this
